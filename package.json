@@ -4,7 +4,7 @@
   "description": "Simple utility to setup a Telegram bot chat",
   "main": "index.js",
   "bin": {
-    "telegram-bot-setup": "bin/telegram-bot-setup"
+    "telegram-bot-setup": "bin/telegram-bot-setup.js"
   },
   "type": "module",
   "scripts": {
