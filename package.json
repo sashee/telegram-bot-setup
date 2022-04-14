@@ -2,15 +2,23 @@
   "name": "telegram-bot-setup",
   "version": "1.3.0",
   "description": "Simple utility to setup a Telegram bot chat",
+	"keywords": [
+		"telegram",
+		"bot"
+	],
   "main": "index.js",
   "bin": {
     "telegram-bot-setup": "bin/telegram-bot-setup.js"
   },
   "type": "module",
+	"repository": "github:sashee/telegram-bot-setup",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+	"author": {
+		"name": "Tamas Sallai",
+		"url": "https://advancedweb.hu/"
+	},
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.2.3",
