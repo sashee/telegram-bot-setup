@@ -54,7 +54,7 @@ export default async () => {
 		const checkMessages = async (offset) => {
 			const messages = await sendTelegramCommand("getUpdates", {timeout: 10, offset});
 			const startMessage = messages.find((message) => {
-				return message.message.text === `/start ${startToken}`;
+				return message.message?.text === `/start ${startToken}`;
 			});
 			if (startMessage) {
 				return startMessage.message.chat.id;
